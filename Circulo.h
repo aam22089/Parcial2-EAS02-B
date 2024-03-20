@@ -8,7 +8,7 @@ class Circulo:public Figura
 {
 public:
     Circulo():Figura(){}
-    Circulo(int b):Figura(b){}
+    Circulo(int b):Figura(b,b){}
 };
 
 #endif
