@@ -8,7 +8,7 @@ class Cuadrado:public Figura
 {
 public:
     Cuadrado():Figura(){}
-    Cuadrado(int b):Figura(b,b){}
+    Cuadrado(int b):Figura(b,b){setPerimetro(4*b)}
 };
 
 #endif
