@@ -27,14 +27,5 @@ void Figura::setPerimetro(float a)
 
 float Figura::getPerimetro()
 {
-    if (h>0)
-    {
-        setPerimetro(b*h);
-    }
-    else
-    {
-
-    }
-
-    return p;
+    cout << this->p << endl;
 }
