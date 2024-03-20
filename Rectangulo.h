@@ -8,7 +8,7 @@ class Rectangulo:public Figura
 {
 public:
     Rectangulo():Figura(){}
-    Rectangulo(int b, int h):Figura(b, h){setPerimetro(2b+2h)}
+    Rectangulo(int b, int h):Figura(b, h){setPerimetro(2*b+2*h)}
 };
 
 #endif
